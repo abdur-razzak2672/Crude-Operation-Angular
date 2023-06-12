@@ -1,0 +1,40 @@
+<h2 class="mt-2">All Student List</h2>
+
+<div class="d-flex justify-content-between">
+    <p>All Students</p>
+    <a routerLink="/add-student" class="btn btn-primary">Add Student</a>
+</div>
+
+<div *ngIf="message" style="margin-right:60%" class="alert mt-4 alert-success alert-dismissible fade show" role="alert">
+    <strong>Successfully</strong> Delete Student
+    <button (click)="removeMessage()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Email</th>
+        <th scope="col">Department</th>
+        <th scope="col">Semester</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of students">
+        <th scope="row">{{student.studentId}}</th>
+        <td>{{student.name}}</td>
+        <td>{{student.phone}}</td>
+        <td>{{student.email}}</td>
+        <td>{{student.department}}</td>
+        <td>{{student.semester}}</td>
+        <td>
+            <a routerLink="/edit-student/{{student.id}}"  class="text-success "><i class="fas fa-edit"></i></a> &nbsp;
+            <a style="cursor: pointer;" (click)="deleteStudent(student.id)" class="text-danger "><i class="fas fa-trash"></i></a>
+
+      </tr>
+     </tbody>
+  </table>

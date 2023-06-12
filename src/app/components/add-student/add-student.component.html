@@ -1,0 +1,52 @@
+ 
+<div style="margin-left:10%; margin-right:10%" class="d-flex justify-content-between mt-4">
+    <p>Add Students</p>
+    <a routerLink="/list-student"class="btn btn-primary">All Student</a>
+</div>
+
+<div *ngIf="message" style="margin-left:10%; margin-right:60%" class="alert mt-4 alert-success alert-dismissible fade show" role="alert">
+    <strong>Successfully</strong> Added Student
+    <button (click)="removeMessage()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div *ngIf="alert" style="margin-left:10%; margin-right:60%" class="alert mt-4 alert-warning alert-dismissible fade show" role="alert">
+     please fillup all field 
+    <button (click)="removeMessage()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+<form [formGroup]="addStudent" (ngSubmit)="AddStudent()" style="margin-left:10%; margin-right:10%" class="row g-3 needs-validation" novalidate>
+    <div class="col-md-6">
+      <label for="validationCustom01" class="form-label">Student Name</label>
+      <input formControlName="name" type="text" placeholder="Enter Name" class="form-control" required>
+     
+    </div>
+    <div class="col-md-6">
+        <label for="validationCustom01"  class="form-label">Student Id</label>
+        <input formControlName="studentId" type="text" placeholder="Enter ID"  class="form-control" id="validationCustom01"required>
+      </div>
+    <div class="col-md-6">
+        <label for="validationCustom01" class="form-label">Phone</label>
+        <input formControlName="phone" type="text" placeholder="Enter Phone"  class="form-control" id="validationCustom01"required>
+      </div>
+    
+     <div class="col-md-6">
+      <label for="validationCustomUsername" class="form-label">Email</label>
+          <input formControlName="email" type="email" placeholder="Enter Email"  class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+     </div>
+     
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">Department</label>
+      <input formControlName="department" type="text" placeholder="Enter Department"  class="form-control" id="validationCustom03" required>
+      
+    </div>
+     
+    <div class="col-md-6">
+      <label for="validationCustom05"   class="form-label">Semester</label>
+      <input formControlName="semester" type="text"  placeholder="Enter Semester" class="form-control" id="validationCustom05" required>
+      
+    </div>
+    
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Add Student</button>
+    </div>
+  </form>

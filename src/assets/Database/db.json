@@ -1,0 +1,87 @@
+{
+  "studentList": [
+    {
+      "id": 1,
+      "name": "Md . Abdur Razzak",
+      "email": "abdur@gmail.com",
+      "phone": "01734360072",
+      "studentId": "191-35-3673",
+      "department": "SWE",
+      "semester": "8th",
+      "image": "https://i.ibb.co/7t7Ghjv/IMG-20201108-162751.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Md . Abdur Razzak",
+      "email": "abdur@gmail.com",
+      "phone": "01734360072",
+      "studentId": "191-35-3673",
+      "department": "SWE",
+      "semester": "8th"
+    },
+    {
+      "name": "Md . Abdur Razzak",
+      "email": "abdur@gmail.com",
+      "phone": "01734360072",
+      "studentId": "191-35-3673",
+      "department": "SWE",
+      "semester": "9th",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Md . Abdur Razzak",
+      "email": "abdur@gmail.com",
+      "phone": "01734360072",
+      "studentId": "191-35-3673",
+      "department": "SWE",
+      "semester": "8th"
+    },
+    {
+      "id": 6,
+      "name": "Md . Abdur Razzak",
+      "email": "abdur@gmail.com",
+      "phone": "01734360072",
+      "studentId": "191-35-3673",
+      "department": "SWE",
+      "semester": "8th"
+    },
+    {
+      "id": 7,
+      "name": "Md . Abdur Razzak",
+      "email": "abdur@gmail.com",
+      "phone": "01734360072",
+      "studentId": "191-35-3673",
+      "department": "SWE",
+      "semester": "8th"
+    },
+    {
+      "id": 8,
+      "name": "Md . Abdur Razzak",
+      "email": "abdur@gmail.com",
+      "phone": "01734360072",
+      "studentId": "191-35-3673",
+      "department": "SWE",
+      "semester": "8th"
+    },
+    {
+      "name": "Md . Abdur Razzak",
+      "email": "abdur@gmail.com",
+      "phone": "01734360072",
+      "studentId": "191-35-3673",
+      "department": "SWE",
+      "semester": "9th",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Md. Abdur Razzak"
+  }
+}
