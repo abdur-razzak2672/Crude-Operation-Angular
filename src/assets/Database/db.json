@@ -24,7 +24,7 @@
       "email": "abdur@gmail.com",
       "phone": "01734360072",
       "studentId": "191-35-3673",
-      "department": "SWE",
+      "department": "EEE",
       "semester": "9th",
       "id": 4
     },
@@ -47,13 +47,13 @@
       "semester": "8th"
     },
     {
-      "id": 7,
-      "name": "Md . Abdur Razzak",
-      "email": "abdur@gmail.com",
-      "phone": "01734360072",
-      "studentId": "191-35-3673",
-      "department": "SWE",
-      "semester": "8th"
+      "name": "Tamim Islam",
+      "email": "tamim@gmail.com",
+      "phone": "017543753767",
+      "studentId": "195-097-986",
+      "department": "CSE",
+      "semester": "8th",
+      "id": 7
     },
     {
       "id": 8,
@@ -65,10 +65,10 @@
       "semester": "8th"
     },
     {
-      "name": "Md . Abdur Razzak",
-      "email": "abdur@gmail.com",
-      "phone": "01734360072",
-      "studentId": "191-35-3673",
+      "name": "Shakib Ahmed",
+      "email": "shakib@gmail.com",
+      "phone": "0197542357",
+      "studentId": "193-90-0097",
       "department": "SWE",
       "semester": "9th",
       "id": 9
